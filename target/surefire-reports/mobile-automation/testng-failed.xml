@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [mobile-automation]">
+  <test thread-count="5" verbose="0" name="regression(failed)">
+    <classes>
+      <class name="com.n26.monefy.automation.runners.TestSettings">
+        <methods>
+          <include name="start"/>
+          <include name="checkSynchronization"/>
+          <include name="changeToDarkTheme"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- com.n26.monefy.automation.runners.TestSettings -->
+    </classes>
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [mobile-automation] -->

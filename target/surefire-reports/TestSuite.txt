@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 182.848 s <<< FAILURE! - in TestSuite
+changeToDarkTheme(com.n26.monefy.automation.runners.TestSettings)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.n26.monefy.automation.runners.TestSettings.changeToDarkTheme(TestSettings.java:16)
+
+checkSynchronization(com.n26.monefy.automation.runners.TestSettings)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.n26.monefy.automation.runners.TestSettings.checkSynchronization(TestSettings.java:31)
+
